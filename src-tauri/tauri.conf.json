@@ -77,7 +77,8 @@
         "url": "splashscreen.html",
         "label": "splashscreen",
         "center": true,
-        "skipTaskbar": true
+        "skipTaskbar": true,
+        "resizable": false
       }
     ]
   }
