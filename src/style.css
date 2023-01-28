@@ -35,13 +35,3 @@ html{
   from {-webkit-mask-position: 150%;}
   to {-webkit-mask-position: -50%;}
 }
-
-
-
-
-iframe{
-  display: block;
-  border: none;
-  height: 100vh;
-  width: 100vw;
-}
