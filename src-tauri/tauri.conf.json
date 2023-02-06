@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "Demo Tauri App",
+    "productName": "PenPace",
     "version": "1.0.0"
   },
   "tauri": {
@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.penpace.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -62,11 +62,11 @@
         "fullscreen": false,
         "height": 700,
         "resizable": true,
-        "title": "Demo Tauri App",
+        "title": "PenPace",
         "width": 1300,
         "decorations": true,
         "center": true,
-        "url": "https://demo-tauri-web.sandunwira.repl.co",
+        "url": "https://penpace.sandunwira.repl.co",
         "visible": false
       },
       
