@@ -1,7 +1,7 @@
 [package]
-name = "test-tauri-app"
+name = "penpace-app"
 version = "0.0.0"
-description = "A Tauri App"
+description = "A minimalistic notes app available from anywhere"
 authors = ["you"]
 license = ""
 repository = ""
