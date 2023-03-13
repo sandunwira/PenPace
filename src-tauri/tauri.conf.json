@@ -20,7 +20,8 @@
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
+      "publisher": "Sandun Wiratunga",
+      "category": "Productivity",
       "copyright": "",
       "deb": {
         "depends": []
@@ -33,8 +34,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.penpace.dev",
-      "longDescription": "",
+      "identifier": "com.penpace.app",
+      "longDescription": "A minimalistic open-source notes app",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -43,8 +44,11 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "A minimalistic open-source notes app",
       "targets": "all",
+      "appimage": {
+        "bundleMediaFramework": false
+      },
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
@@ -59,26 +63,30 @@
     },
     "windows": [
       {
-        "fullscreen": false,
-        "height": 700,
-        "resizable": true,
         "title": "PenPace",
-        "width": 1300,
+        "width": 1500,
+        "height": 750,
+        "url": "https://penpace.sandunwira.repl.co",
+        "fullscreen": false,
+        "focus": true,
+        "resizable": true,
         "decorations": true,
         "center": true,
-        "url": "https://penpace.sandunwira.repl.co",
         "visible": false
       },
       
       {
-        "width": 400,
+        "title": "PenPace",
+        "width": 450,
         "height": 200,
-        "decorations": false,
         "url": "splashscreen.html",
         "label": "splashscreen",
+        "fullscreen": false,
+        "focus": true,
+        "resizable": false,
+        "decorations": false,
         "center": true,
-        "skipTaskbar": true,
-        "resizable": false
+        "skipTaskbar": false
       }
     ]
   }
