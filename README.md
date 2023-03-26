@@ -6,5 +6,5 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/sandunwira/PenPace?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sandunwira/PenPace?style=for-the-badge)
 
-# PenPace-App
+# PenPace
 This is a notes app created using Tauri and Rust [Work In Progress]
