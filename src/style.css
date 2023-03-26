@@ -7,7 +7,7 @@
 
 html{
   scroll-behavior: smooth;
-  // DISABLE USER SELECTION
+  /* DISABLE USER SELECTION */
   -webkit-user-select: none;
       -ms-user-select: none;
 	        user-select: none;
