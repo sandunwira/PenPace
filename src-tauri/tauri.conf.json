@@ -16,17 +16,19 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "window": {
+        "all": false,
+        "print": false,
+        "setFullscreen": true,
+        "setResizable": true
       }
     },
     "bundle": {
       "active": true,
       "publisher": "Sandun Wiratunga",
+      "copyright": "Sandun Wiratunga",
       "category": "Productivity",
-      "copyright": "",
-      "deb": {
-        "depends": []
-      },
-      "externalBin": [],
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -34,59 +36,47 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.penpace.app",
-      "longDescription": "A minimalistic open-source notes app",
-      "macOS": {
-        "entitlements": null,
-        "exceptionDomain": "",
-        "frameworks": [],
-        "providerShortName": null,
-        "signingIdentity": null
-      },
+      "identifier": "PenPace",
+      "longDescription": "An opensource note-taking app",
+      "shortDescription": "An opensource note-taking app",
+      "externalBin": [],
       "resources": [],
-      "shortDescription": "A minimalistic open-source notes app",
       "targets": "all",
-      "appimage": {
-        "bundleMediaFramework": false
-      },
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
-        "timestampUrl": ""
+        "timestampUrl": "",
+        "wix": {
+          "language": "en-US"
+        }
       }
     },
     "security": {
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": false,
+      "dialog": true,
+      "endpoints": [
+
+      ],
+      "windows": {
+        "installMode": "passive"
+      },
+      "pubkey": ""
     },
     "windows": [
       {
         "title": "PenPace",
         "width": 1500,
         "height": 750,
-        "url": "https://penpace.sandunwira.repl.co",
+        "url": "index.html",
         "fullscreen": false,
         "focus": true,
         "resizable": true,
         "decorations": true,
         "center": true,
         "visible": false
-      },
-      
-      {
-        "title": "PenPace",
-        "width": 450,
-        "height": 200,
-        "url": "splashscreen.html",
-        "label": "splashscreen",
-        "fullscreen": false,
-        "focus": true,
-        "resizable": false,
-        "decorations": false,
-        "center": true,
-        "skipTaskbar": false
       }
     ]
   }

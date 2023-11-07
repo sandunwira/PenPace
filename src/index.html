@@ -2,16 +2,30 @@
 <html lang="en">
 
 	<head>
-		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="style.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title>PenPace</title>
 
 		<script type="module" src="/main.js" defer></script>
+
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/app.css">
+
+		<link rel="preload" href="./css/style.css" as="stylesheet" type="text/css">
 	</head>
 
 	<body>
+
+		<div id="titlebar">
+			<span>PenPace</span>
+			<span onclick="window.location.reload();">Refresh</span>
+		</div>
+
+		<div class="containerBlock">
+			<iframe src="https://penpace-web-demo.sandunwira.repl.co" frameborder="0"></iframe>
+		</div>
+		
 
 	</body>
 
